@@ -6,7 +6,7 @@ app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
 def home():
-	return "<h1>Proyecto GitHub</h1><p>Prueba de proyecto gestionado con GitHub.</p>"
+	return "<h1>Proyecto GitHub V2</h1><p>Prueba de proyecto gestionado con GitHub.</p>"
 
 @app.route('/listar', methods=['GET'])
 def listar():
